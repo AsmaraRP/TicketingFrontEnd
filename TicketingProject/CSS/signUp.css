@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
-section {
-  display: flex;
-  width: 1566px;
-  height: 100%;
-  position: absolute;
-}
 .left {
-  flex: 5;
   background-image: url("../CSS/img/avnger.png");
-  height: 100%;
+  height: 950px;
+  width: 100%;
   object-fit: cover;
 }
 .right {
-  flex: 2;
   height: 100%;
+}
+.logo {
+  position: relative;
+  width: 80px;
+  left: 83px;
+  top: 10px;
+  display: none;
 }
 h1 {
   color: #121212;
@@ -117,10 +117,58 @@ p {
 }
 .overlay {
   background: rgba(43, 21, 107, 0.8);
-  height: 100%;
+  height: 950px;
 }
-/* @media screen and (max-width: 1200px) {
-  .left {
+@media screen and (max-width: 500px) {
+  .banner {
     display: none;
   }
-} */
+  .logo {
+    left: 30px;
+    display: flex;
+  }
+  h1 {
+    left: 30px;
+    width: 80px;
+    font-size: 20px;
+    top: 10px;
+  }
+  .desc {
+    left: 30px;
+    font-size: 16px;
+    width: 200px;
+    top: 30px;
+  }
+  .bar {
+    left: 30px;
+    top: 30px;
+    height: auto;
+    width: 300px;
+    margin-bottom: 0;
+    padding: 10px;
+    background: #fcfdfe;
+    border: 1px solid #dedede;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .name {
+    left: 30px;
+    font-size: 10px;
+    margin-bottom: 0;
+    top: 30px;
+  }
+  .signUpBtn {
+    left: 30px;
+    top: 30px;
+    width: 300px;
+  }
+  p {
+    left: 40px;
+    font-size: 16px;
+    top: 40px;
+  }
+  .eye {
+    left: 270px;
+    top: -35px;
+  }
+}
