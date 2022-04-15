@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+/* NAVBAR */
+.navcss {
+  background-color: #ffffff;
+  height: 104px;
+}
+.logo {
+  width: 120.41px;
+  height: 31.41px;
+  top: 9.57px;
+  left: 0.35px;
+}
+.buttonSignUp {
+  background: #5f2eea;
+  border-radius: 4px;
+  width: 120px;
+  height: 40px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #f7f7fc;
+}
+.homeMenu {
+  position: absolute;
+  left: 27%;
+  top: 42px;
+  text-decoration: none;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #414141;
+}
+.listMenu {
+  position: absolute;
+  left: 34%;
+  top: 42px;
+  text-decoration: none;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #414141;
+}
+/* BANNER */
+.banner {
+  margin-top: 100px;
+  height: 609px;
+  background-color: #ffffff;
+}
+.motto {
+  position: absolute;
+  top: 304px;
+}
+.banner_img {
+  height: 100%;
+}
+/* NOWSHOWING */
+.nowShowing {
+  background-color: #f5f6f8;
+  height: 576px;
+}
+.titleNowShowing {
+  width: 161px;
+  position: relative;
+  top: 60px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #5f2eea;
+  font-weight: bold;
+}
+.viewAll {
+  position: relative;
+  width: 60px;
+  height: 20px;
+  left: 1200px;
+  top: 25px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.15px;
+  color: #5f2eea;
+}
+.lineNowShowing {
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+.movieShow {
+  position: relative;
+  height: 308px;
+  width: 223px;
+  left: 0px;
+  top: 70px;
+  margin-left: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  margin: 5px;
+}
+.movieCardImg {
+  padding: 30px;
+  border-radius: 6px;
+}
+/* UPCOMING */
+.upcoming {
+  height: 700px;
+  background-color: #ffffff;
+}
+.titleUpcoming {
+  width: 250px;
+  position: relative;
+  top: 60px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: black;
+  font-weight: bold;
+}
+.movieShowUpcoming {
+  position: relative;
+  height: 408px;
+  width: 223px;
+  left: 0px;
+  top: 70px;
+  margin-left: 50px;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  margin: 5px;
+}
+.titleCard {
+  position: relative;
+  top: -30px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: #14142b;
+}
+.desCard {
+  position: relative;
+  top: -30px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #a0a3bd;
+}
+.btnCard {
+  position: relative;
+  top: -30px;
+  left: 15px;
+  border: 1px solid #5f2eea;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #5f2eea;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  height: 33px;
+  width: 159px;
+}
+.btnMonth {
+  position: relative;
+  top: 40px;
+  left: 15px;
+  border: 1px solid #5f2eea;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #5f2eea;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  height: 33px;
+  width: 189px;
+}
+/* RESPONCARD */
+.responseCard {
+  height: 500px;
+}
+.cardMainResponse {
+  position: relative;
+  top: 30px;
+  width: 100%;
+  height: 300px;
+  background: #ffffff;
+  box-shadow: 0px 16px 32px rgba(186, 186, 186, 0.3);
+  border-radius: 8px;
+}
+.moviegoers {
+  position: relative;
+  top: 30px;
+  left: 525px;
+}
+.emailForm {
+  position: relative;
+  padding: 10px;
+  width: 300px;
+  height: 40px;
+  top: 120px;
+  left: 160px;
+  border: 2px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.75px;
+  color: #a0a3bd;
+}
+.buttonResponse {
+  position: relative;
+  top: 119px;
+  left: 170px;
+  background: #5f2eea;
+  border-radius: 4px;
+  width: 120px;
+  height: 40px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #f7f7fc;
+}
+.textResponse {
+  position: relative;
+  top: 130px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  color: #6e7191;
+}
+.textResponse2 {
+  position: relative;
+  top: 110px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  color: #6e7191;
+}
+/* FOOTER */
+.footerMain {
+  height: 400px;
+}
+.footerLogo {
+  position: relative;
+  height: 43px;
+  width: 170px;
+  top: 93px;
+}
+.textCol1 {
+  position: relative;
+  top: 130px;
+  width: 300px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.75px;
+  color: #6e7191;
+}
+.textCol2 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  color: #000000;
+  position: relative;
+  top: 93px;
+}
+.footerPage {
+  position: relative;
+  top: 120px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color: #4e4b66;
+  text-decoration: none;
+}
+.sponsor {
+  position: relative;
+  top: 110px;
+}
+.contact {
+  position: relative;
+  top: 110px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #6e7191;
+}

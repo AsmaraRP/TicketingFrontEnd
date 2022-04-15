@@ -7,27 +7,247 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-
+    <link rel="stylesheet" href="../CSS/home.css" />
     <title>Home</title>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navcss fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="../CSS/img/Vector.png" alt="" width="100" height="24" />
+          <img src="../CSS/img/Vector.png" alt="" width="100" height="24" class="logo" />
         </a>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">List Movie</a>
-            </li>
-          </ul>
-        </div>
+        <a href="" class="homeMenu"> Home</a>
+        <a href="" class="listMenu">List Movie</a>
+        <button class="btn btn-outline-success buttonSignUp" type="submit">Sign Up</button>
       </div>
     </nav>
+
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="../CSS/img/motto.png" alt="" class="motto" />
+          </div>
+          <div class="col">
+            <img src="../CSS/img/banner_img.png" alt="" class="banner_img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="nowShowing">
+      <div class="container">
+        <h4 class="titleNowShowing">Now Showing</h4>
+        <h5 class="viewAll">view all</h5>
+        <img src="../CSS/img/Line 7.png" alt="" class="lineNowShowing" />
+        <div class="row">
+          <div class="col-md-auto">
+            <div class="card movieShow">
+              <img src="../CSS/img/movie1.png" alt="" class="movieCardImg" />
+            </div>
+          </div>
+          <div class="col-md-auto">
+            <div class="card movieShow">
+              <img src="../CSS/img/movie2.png" alt="" class="movieCardImg" />
+            </div>
+          </div>
+          <div class="col-md-auto">
+            <div class="card movieShow">
+              <img src="../CSS/img/movie3.png" alt="" class="movieCardImg" />
+            </div>
+          </div>
+          <div class="col-md-auto">
+            <div class="card movieShow">
+              <img src="../CSS/img/movie1.png" alt="" class="movieCardImg" />
+            </div>
+          </div>
+          <div class="col-md-auto">
+            <div class="card movieShow">
+              <img src="../CSS/img/movie2.png" alt="" class="movieCardImg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="upcoming">
+      <div class="container">
+        <h4 class="titleUpcoming">Upcoming Movies</h4>
+        <h5 class="viewAll">view all</h5>
+        <div class="row mb-3">
+          <div class="col-md-auto">
+            <a href="#" class="btn btnMonth">January</a>
+          </div>
+          <div class="col-md-auto">
+            <a href="#" class="btn btnMonth">February</a>
+          </div>
+          <div class="col-md-auto">
+            <a href="#" class="btn btnMonth">Maret</a>
+          </div>
+          <div class="col-md-auto">
+            <a href="#" class="btn btnMonth">April</a>
+          </div>
+          <div class="col-md-auto">
+            <a href="#" class="btn btnMonth">Mei</a>
+          </div>
+          <div class="col-md-auto">
+            <a href="#" class="btn btnMonth">June</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-auto">
+            <a href="#" class="btn btnMonth">July</a>
+          </div>
+          <div class="col-md-auto">
+            <a href="#" class="btn btnMonth">Augst</a>
+          </div>
+          <div class="col-md-auto">
+            <a href="#" class="btn btnMonth">September</a>
+          </div>
+          <div class="col-md-auto">
+            <a href="#" class="btn btnMonth">October</a>
+          </div>
+          <div class="col-md-auto">
+            <a href="#" class="btn btnMonth">November</a>
+          </div>
+          <div class="col-md-auto">
+            <a href="#" class="btn btnMonth">Desember</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-auto">
+            <div class="card movieShowUpcoming">
+              <img src="../CSS/img/movie4.png" alt="" class="movieCardImg" />
+              <div class="card-body">
+                <h5 class="titleCard">Black Widow</h5>
+                <p class="desCard">Action, Adventures, Sci-Fi</p>
+                <a href="#" class="btn btnCard">Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-auto">
+            <div class="card movieShowUpcoming">
+              <img src="../CSS/img/movie5.png" alt="" class="movieCardImg" />
+              <div class="card-body">
+                <h5 class="titleCard">The Witches</h5>
+                <p class="desCard">Action, Comedy, Family</p>
+                <a href="#" class="btn btnCard">Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-auto">
+            <div class="card movieShowUpcoming">
+              <img src="../CSS/img/movie6.png" alt="" class="movieCardImg" />
+              <div class="card-body">
+                <h5 class="titleCard">Tenet</h5>
+                <p class="desCard">Action, Sci-Fi</p>
+                <a href="#" class="btn btnCard">Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-auto">
+            <div class="card movieShowUpcoming">
+              <img src="../CSS/img/movie4.png" alt="" class="movieCardImg" />
+              <div class="card-body">
+                <h5 class="titleCard">Black Widow</h5>
+                <p class="desCard">Action, Adventures, Sci-Fi</p>
+                <a href="#" class="btn btnCard">Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-auto">
+            <div class="card movieShowUpcoming">
+              <img src="../CSS/img/movie5.png" alt="" class="movieCardImg" />
+              <div class="card-body">
+                <h5 class="titleCard">The Witches</h5>
+                <p class="desCard">Action, Comedy, Family</p>
+                <a href="#" class="btn btnCard">Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="responseCard">
+      <div class="container">
+        <div class="cardMainResponse">
+          <img src="../CSS/img/moviegoers.png" alt="" class="moviegoers" />
+          <input class="emailForm" type="text" placeholder="Typer your email" />
+          <button class="btn btn-outline-success buttonResponse" type="submit">Join Now</button>
+          <p class="textResponse">By Joining as a Tickits member,</p>
+          <p class="textResponse2">we will always send you the latest updates vie email</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footerMain">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <img src="../CSS/img/Vector.png" alt="" class="footerLogo" />
+            <p class="textCol1">Stop waiting in line. Buy tickets conventiently, watch movie quietly</p>
+          </div>
+          <div class="col-2">
+            <h2 class="textCol2">Explore</h2>
+            <div class="row mb-3">
+              <a href="" class="footerPage">Home</a>
+            </div>
+            <div class="row">
+              <a href="" class="footerPage">List Movie</a>
+            </div>
+          </div>
+          <div class="col-3">
+            <h2 class="textCol2">Our Sponsor</h2>
+            <div class="mb-4">
+              <img src="../CSS/img/sponsor1.png" alt="" class="sponsor" />
+            </div>
+            <div class="mb-4">
+              <img src="../CSS/img/sponsor2.png" alt="" class="sponsor" />
+            </div>
+            <div class="mb-4">
+              <img src="../CSS/img/sponsor3.png" alt="" class="sponsor" />
+            </div>
+          </div>
+          <div class="col-3">
+            <h2 class="textCol2">Follow Us</h2>
+            <div class="row contact">
+              <div class="col-1">
+                <img src="../CSS/img/iconFB.png" alt="" />
+              </div>
+              <div class="col-11">
+                <p>Tickitz Cinema Id</p>
+              </div>
+            </div>
+            <div class="row contact">
+              <div class="col-1">
+                <img src="../CSS/img/iconIG.png" alt="" />
+              </div>
+              <div class="col-11">
+                <p>tickitz.id</p>
+              </div>
+            </div>
+            <div class="row contact">
+              <div class="col-1">
+                <img src="../CSS/img/iconTwitter.png" alt="" />
+              </div>
+              <div class="col-11">
+                <p>tickitz.id</p>
+              </div>
+            </div>
+            <div class="row contact">
+              <div class="col-1">
+                <img src="../CSS/img/iconYT.png" alt="" />
+              </div>
+              <div class="col-11">
+                <p>Tickitz Cinema Id</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
