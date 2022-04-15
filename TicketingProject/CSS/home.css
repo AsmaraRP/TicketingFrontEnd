@@ -6,8 +6,7 @@
   height: 104px;
 }
 .logo {
-  width: 120.41px;
-  height: 31.41px;
+  height: 100%;
   top: 9.57px;
   left: 0.35px;
 }
@@ -276,7 +275,6 @@
 .footerLogo {
   position: relative;
   height: 43px;
-  width: 170px;
   top: 93px;
 }
 .textCol1 {
@@ -326,4 +324,16 @@
   font-size: 14px;
   line-height: 18px;
   color: #6e7191;
+}
+.copyRight {
+  position: relative;
+  top: 150px;
+  text-align: center;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color: #4e4b66;
 }
