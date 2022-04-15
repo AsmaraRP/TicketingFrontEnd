@@ -50,7 +50,6 @@ h1 {
   padding: 30px;
   background: #fcfdfe;
   border: 1px solid #dedede;
-  box-sizing: border-box;
   border-radius: 16px;
   color: #a0a3bd;
 }
@@ -119,7 +118,7 @@ p {
   background: rgba(43, 21, 107, 0.8);
   height: 950px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .banner {
     display: none;
   }
