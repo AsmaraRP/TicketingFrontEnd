@@ -271,6 +271,7 @@
 /* FOOTER */
 .footerMain {
   height: 400px;
+  margin-top: 60px;
 }
 .footerLogo {
   position: relative;

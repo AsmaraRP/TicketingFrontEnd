@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+/* NAVBAR */
+.navcss {
+  background-color: #ffffff;
+  height: 104px;
+  box-shadow: 0px 8px 24px rgba(186, 186, 186, 0.16);
+}
+.logo {
+  height: 100%;
+  top: 9.57px;
+  left: 0.35px;
+}
+.buttonSignUp {
+  background: #5f2eea;
+  border-radius: 4px;
+  width: 120px;
+  height: 40px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #f7f7fc;
+}
+.homeMenu {
+  position: absolute;
+  left: 27%;
+  top: 42px;
+  text-decoration: none;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #414141;
+}
+.listMenu {
+  position: absolute;
+  left: 34%;
+  top: 42px;
+  text-decoration: none;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #414141;
+}
+/* ORDER MAIN */
+.paymentMain {
+  position: relative;
+  top: 90px;
+  height: 1200px;
+  background-color: #f5f6f8;
+}
+.paymentTitle {
+  position: relative;
+  top: 70px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.25px;
+  color: #14142b;
+}
+.paymentInfo {
+  position: relative;
+  top: 80px;
+  height: 400px;
+  width: 100%;
+  border-radius: 6px;
+  background-color: #ffffff;
+  padding: 60px;
+}
+.titlePayementLeft {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6b6b6b;
+}
+.titlePaymentRight {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #14142b;
+}
+.linePayment {
+  width: 100%;
+}
+.choosePayment {
+  position: relative;
+  top: 120px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.25px;
+  color: #14142b;
+}
+.paymentOption {
+  position: relative;
+  top: 130px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  width: 100%;
+  height: 400px;
+}
+.btnPrev {
+  position: relative;
+  top: 180px;
+  left: 0;
+  width: 300px;
+  height: 58px;
+  background: #eff0f7;
+  opacity: 0.8;
+  border: 2px solid #5f2eea;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #5f2eea;
+}
+.btnPrev:hover {
+  color: #5f2eea;
+  text-decoration: underline;
+}
+.btnPay {
+  position: relative;
+  top: 180px;
+  left: 140px;
+  width: 300px;
+  height: 58px;
+  background: #5f2eea;
+  opacity: 0.8;
+  border: 2px solid #5f2eea;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #eff0f7;
+}
+.btnPay:hover {
+  color: #eff0f7;
+  text-decoration: underline;
+}
+.personalTitle {
+  position: relative;
+  top: 70px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.25px;
+  color: #14142b;
+}
+.infoPersonal {
+  position: relative;
+  top: 80px;
+  height: 433px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 20px;
+}
+/* FOOTER */
+.footerMain {
+  margin-top: 60px;
+  height: 400px;
+}
+.footerLogo {
+  position: relative;
+  height: 43px;
+  top: 93px;
+}
+.textCol1 {
+  position: relative;
+  top: 130px;
+  width: 300px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.75px;
+  color: #6e7191;
+}
+.textCol2 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  color: #000000;
+  position: relative;
+  top: 93px;
+}
+.footerPage {
+  position: relative;
+  top: 120px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color: #4e4b66;
+  text-decoration: none;
+}
+.sponsor {
+  position: relative;
+  top: 110px;
+}
+.contact {
+  position: relative;
+  top: 110px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #6e7191;
+}
+.copyRight {
+  position: relative;
+  top: 150px;
+  text-align: center;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color: #4e4b66;
+}
