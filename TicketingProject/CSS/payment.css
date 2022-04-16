@@ -108,6 +108,43 @@
   border-radius: 6px;
   width: 100%;
   height: 400px;
+  padding: 48px;
+}
+.paymentIcon {
+  height: 56px;
+  width: 146px;
+  border: 2px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+}
+.lineOr {
+  margin-top: 40px;
+  width: 100%;
+}
+.textOr {
+  margin-top: 25px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #a0a3bd;
+  text-align: center;
+}
+.textCash {
+  margin-top: 30px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6e7191;
+  text-align: center;
+}
+.linkHow {
+  text-decoration: none;
+  color: #5f2eea;
 }
 .btnPrev {
   position: relative;
@@ -163,12 +200,50 @@
 }
 .infoPersonal {
   position: relative;
+  padding: 30px;
   top: 80px;
   height: 433px;
   width: 100%;
   background: #ffffff;
   border-radius: 6px;
-  padding: 20px;
+  padding: 30px;
+}
+.labelPersonal {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #696f79;
+}
+.formPersonal {
+  width: 100%;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  padding: 10px 30px 10px 30px;
+  border-radius: 4px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #4e4b66;
+}
+.warningInput {
+  padding-top: 15px;
+  padding-left: 40px;
+  height: 64px;
+  width: 100%;
+  background: rgba(244, 183, 64, 0.3);
+  border-radius: 4px;
+}
+.warningMsg {
+  position: relative;
+  top: -25px;
+  left: 80px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #4e4b66;
 }
 /* FOOTER */
 .footerMain {
