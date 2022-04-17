@@ -18,7 +18,30 @@
         </a>
         <a href="" class="homeMenu"> Home</a>
         <a href="" class="listMenu">List Movie</a>
-        <button class="btn btn-outline-success buttonSignUp" type="submit">Sign Up</button>
+        <div class="signUpNav">
+          <button class="btn btn-outline-success buttonSignUp" type="submit">Sign Up</button>
+        </div>
+        <div class="profileNav displayHide">
+          <div class="row">
+            <div class="col-md-auto">
+              <img src="../CSS/img/search.png" alt="" class="searchNav">
+            </div>
+            <div class="col-md-auto">
+              <input type="text" class="searchWord" placeholder="Search movie name">
+            </div>
+            <div class="col-md-auto">
+              <div class="dropdown profileMenu">
+                <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown">
+                  <img src="../CSS/img/user.png" alt="" class="profileImg">
+                </button>
+                <ul class="dropdown-menu profileOption">
+                  <li><a class="dropdown-item fontProfile" href="#">Profile</a></li>
+                  <li><a class="dropdown-item fontProfile" href="#">Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </nav>
 
@@ -44,26 +67,41 @@
           <div class="col-md-auto">
             <div class="card movieShow">
               <img src="../CSS/img/movie1.png" alt="" class="movieCardImg" />
+              <h5 class="titleMovieShow">Spider-Man: Homecoming</h5>
+              <p class="desMovieShow">Action, Adventures, Sci-Fi</p>
+              <a href="./details.html" class="btn btnMovieShow">Details</a>
             </div>
           </div>
           <div class="col-md-auto">
             <div class="card movieShow">
               <img src="../CSS/img/movie2.png" alt="" class="movieCardImg" />
+              <h5 class="titleMovieShow">The Lion King</h5>
+              <p class="desMovieShow"> Adventures, Comedy</p>
+              <a href="#" class="btn btnMovieShow">Details</a>
             </div>
           </div>
           <div class="col-md-auto">
             <div class="card movieShow">
               <img src="../CSS/img/movie3.png" alt="" class="movieCardImg" />
+              <h5 class="titleMovieShow">Jhon Wick 3</h5>
+              <p class="desMovieShow">Action, Adventures, Sci-Fi</p>
+              <a href="#" class="btn btnMovieShow">Details</a>
             </div>
           </div>
           <div class="col-md-auto">
             <div class="card movieShow">
               <img src="../CSS/img/movie1.png" alt="" class="movieCardImg" />
+              <h5 class="titleMovieShow">Spider-Man: Homecoming</h5>
+              <p class="desMovieShow">Action, Adventures, Sci-Fi</p>
+              <a href="#" class="btn btnMovieShow">Details</a>
             </div>
           </div>
           <div class="col-md-auto">
             <div class="card movieShow">
               <img src="../CSS/img/movie2.png" alt="" class="movieCardImg" />
+              <h5 class="titleMovieShow">The Lion King</h5>
+              <p class="desMovieShow"> Adventures, Comedy</p>
+              <a href="#" class="btn btnMovieShow">Details</a>
             </div>
           </div>
         </div>
@@ -76,7 +114,7 @@
         <h5 class="viewAll">view all</h5>
         <div class="row mb-3">
           <div class="col-md-auto">
-            <a href="#" class="btn btnMonth">January</a>
+            <a href="#" class="btn btnMonth activeMonth">January</a>
           </div>
           <div class="col-md-auto">
             <a href="#" class="btn btnMonth">February</a>

@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
 /* NAVBAR */
 .navcss {
   background-color: #ffffff;
   height: 104px;
+  /* box-shadow: 0px 8px 24px rgba(186, 186, 186, 0.16); */
 }
 .logo {
   height: 100%;
@@ -20,6 +21,44 @@
   font-weight: 700;
   font-size: 14px;
   color: #f7f7fc;
+}
+.buttonSignUp:hover {
+  background-color: #ffffff;
+  color: #5f2eea;
+  border: 2px solid #5f2eea;
+}
+.displayHide {
+  display: none;
+}
+/* Nav Profile*/
+.searchWord {
+  display: none;
+  width: 150px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+.profileNav:hover .searchWord {
+  display: inline-block;
+}
+.profileMenu {
+  background-color: #ffffff;
+  margin-top: -15px;
+}
+.profileImg {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.fontProfile {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
 }
 .homeMenu {
   position: absolute;
@@ -62,6 +101,9 @@
   border: 2px solid #dedede;
   box-sizing: border-box;
   border-radius: 16px;
+}
+.movieDetail:hover {
+  background-color: #dedede;
 }
 .movieCardImg {
   padding: 47px;
@@ -190,6 +232,9 @@
   font-size: 16px;
   line-height: 28px;
   color: #4e4b66;
+  background-color: #eff0f6;
+  border: none;
+  width: 100%;
 }
 .forwardImg {
   position: relative;
@@ -301,9 +346,41 @@
   width: 375px;
   border-radius: 4px;
 }
+.goToOrder {
+  color: #f7f7fc;
+  text-decoration: none;
+}
+.goToOrder:hover {
+  color: #000000;
+}
+.bookButton:hover {
+  color: #f7f7fc;
+  background-color: #5f2eea;
+  border: 2px solid #ffffff;
+}
 .viewMoreImg {
   position: relative;
   top: 150px;
+}
+.lineViewall {
+  margin-top: 150px;
+  width: 100%;
+}
+.textViewall {
+  margin-top: 140px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5f2eea;
+  text-align: center;
+}
+.textLink {
+  text-decoration: none;
+  color: #5f2eea;
+}
+.textLink:hover {
+  color: #000000;
 }
 /* FOOTER */
 .footerMain {

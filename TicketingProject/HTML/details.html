@@ -18,7 +18,30 @@
         </a>
         <a href="" class="homeMenu"> Home</a>
         <a href="" class="listMenu">List Movie</a>
-        <button class="btn btn-outline-success buttonSignUp" type="submit">Sign Up</button>
+        <div class="signUpNav displayHide">
+          <button class="btn btn-outline-success buttonSignUp" type="submit">Sign Up</button>
+        </div>
+        <div class="profileNav">
+          <div class="row">
+            <div class="col-md-auto">
+              <img src="../CSS/img/search.png" alt="" class="searchNav">
+            </div>
+            <div class="col-md-auto">
+              <input type="text" class="searchWord" placeholder="Search movie name">
+            </div>
+            <div class="col-md-auto">
+              <div class="dropdown profileMenu">
+                <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown">
+                  <img src="../CSS/img/user.png" alt="" class="profileImg">
+                </button>
+                <ul class="dropdown-menu profileOption">
+                  <li><a class="dropdown-item fontProfile" href="#">Profile</a></li>
+                  <li><a class="dropdown-item fontProfile" href="#">Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </nav>
 
@@ -67,7 +90,7 @@
               <img src="../CSS/img/calender.png" alt="" class="shortingImg" />
             </div>
             <div class="col-8">
-              <p class="shortingContent">27/07/20</p>
+              <input class="shortingContent" type="text" placeholder="27/07/20">
             </div>
             <div class="col-2">
               <img src="../CSS/img/Forward.png" alt="" class="forwardImg" />
@@ -80,7 +103,7 @@
               <img src="../CSS/img/location.png" alt="" class="shortingImg" />
             </div>
             <div class="col-8">
-              <p class="shortingContent">Banyuwangi</p>
+              <input class="shortingContent" type="text" placeholder="Banyuwangi">
             </div>
             <div class="col-2">
               <img src="../CSS/img/Forward.png" alt="" class="forwardImg" />
@@ -133,7 +156,7 @@
                   <p class="priceContent">$10.00/seat</p>
                 </div>
               </div>
-              <button type="button" class="btn bookButton">Book now</button>
+              <button type="button" class="btn bookButton"><a href="/" class="goToOrder">Book now</a></button>
             </div>
           </div>
           <div class="col-md-auto">
@@ -181,7 +204,7 @@
                   <p class="priceContent">$10.00/seat</p>
                 </div>
               </div>
-              <button type="button" class="btn bookButton">Book now</button>
+              <button type="button" class="btn bookButton"><a href="./order.html" class="goToOrder">Book now</a></button>
             </div>
           </div>
           <div class="col-md-auto">
@@ -229,7 +252,7 @@
                   <p class="priceContent">$10.00/seat</p>
                 </div>
               </div>
-              <button type="button" class="btn bookButton">Book now</button>
+              <button type="button" class="btn bookButton"><a href="/" class="goToOrder">Book now</a></button>
             </div>
           </div>
         </div>
@@ -279,7 +302,7 @@
                   <p class="priceContent">$10.00/seat</p>
                 </div>
               </div>
-              <button type="button" class="btn bookButton">Book now</button>
+              <button type="button" class="btn bookButton"><a href="/" class="goToOrder">Book now</a></button>
             </div>
           </div>
           <div class="col-md-auto">
@@ -327,7 +350,7 @@
                   <p class="priceContent">$10.00/seat</p>
                 </div>
               </div>
-              <button type="button" class="btn bookButton">Book now</button>
+              <button type="button" class="btn bookButton"><a href="/" class="goToOrder">Book now</a></button>
             </div>
           </div>
           <div class="col-md-auto">
@@ -375,11 +398,21 @@
                   <p class="priceContent">$10.00/seat</p>
                 </div>
               </div>
-              <button type="button" class="btn bookButton">Book now</button>
+              <button type="button" class="btn bookButton"><a href="/" class="goToOrder">Book now</a></button>
             </div>
           </div>
-        </div>
-        <img src="../CSS/img/viewmore.png" alt="" class="viewMoreImg" />
+        </div> 
+        <div class="row">
+          <div class="col-5">
+              <img src="../CSS/img/Line 29.png" alt="" class="lineViewall">
+          </div>
+          <div class="col-2">
+              <p class="textViewall"> <a href="" class="textLink">view all</a></p>
+          </div>
+          <div class="col-5">
+              <img src="../CSS/img/Line 29.png" alt="" class="lineViewall">
+          </div>
+      </div> 
       </div>
     </section>
 

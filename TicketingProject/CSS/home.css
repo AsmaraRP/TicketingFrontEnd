@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
 /* NAVBAR */
 .navcss {
   background-color: #ffffff;
   height: 104px;
+  /* box-shadow: 0px 8px 24px rgba(186, 186, 186, 0.16); */
 }
 .logo {
   height: 100%;
@@ -20,6 +21,44 @@
   font-weight: 700;
   font-size: 14px;
   color: #f7f7fc;
+}
+.buttonSignUp:hover {
+  background-color: #ffffff;
+  color: #5f2eea;
+  border: 2px solid #5f2eea;
+}
+.displayHide {
+  display: none;
+}
+/* Nav Profile*/
+.searchWord {
+  display: none;
+  width: 150px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+.profileNav:hover .searchWord {
+  display: inline-block;
+}
+.profileMenu {
+  background-color: #ffffff;
+  margin-top: -15px;
+}
+.profileImg {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.fontProfile {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
 }
 .homeMenu {
   position: absolute;
@@ -109,6 +148,70 @@
   border-radius: 8px;
   margin: 5px;
 }
+.movieShow:hover {
+  top: 50px;
+  background-color: #ffffff;
+  height: 420px;
+  border: 0.5px solid #dedede;
+  box-shadow: 0px 8px 30px rgba(186, 186, 186, 0.25);
+  border-radius: 8px;
+}
+.titleMovieShow {
+  display: none;
+  position: relative;
+  top: -20px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: #14142b;
+}
+.movieShow:hover .titleMovieShow {
+  display: block;
+}
+.desMovieShow {
+  display: none;
+  position: relative;
+  top: -20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #a0a3bd;
+  text-align: center;
+}
+.movieShow:hover .desMovieShow {
+  display: block;
+}
+.btnMovieShow {
+  display: none;
+  position: relative;
+  top: -20px;
+  left: 30px;
+  border: 1px solid #5f2eea;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #5f2eea;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  height: 33px;
+  width: 159px;
+}
+.btnMovieShow:hover {
+  background-color: #5f2eea;
+  color: #ffffff;
+}
+.movieShow:hover .btnMovieShow {
+  display: block;
+}
 .movieCardImg {
   padding: 30px;
   border-radius: 6px;
@@ -181,6 +284,10 @@
   height: 33px;
   width: 159px;
 }
+.btnCard:hover {
+  background-color: #5f2eea;
+  color: #ffffff;
+}
 .btnMonth {
   position: relative;
   top: 40px;
@@ -195,6 +302,15 @@
   font-size: 14px;
   height: 33px;
   width: 189px;
+}
+.activeMonth {
+  background-color: #5f2eea;
+  color: #ffffff;
+}
+.btnMonth:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
 }
 /* RESPONCARD */
 .responseCard {
@@ -245,6 +361,11 @@
   font-weight: 700;
   font-size: 14px;
   color: #f7f7fc;
+}
+.buttonResponse:hover {
+  border: 2px solid #5f2eea;
+  background-color: #ffffff;
+  color: #5f2eea;
 }
 .textResponse {
   position: relative;

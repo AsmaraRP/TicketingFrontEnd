@@ -18,7 +18,30 @@
         </a>
         <a href="" class="homeMenu"> Home</a>
         <a href="" class="listMenu">List Movie</a>
-        <button class="btn btn-outline-success buttonSignUp" type="submit">Sign Up</button>
+        <div class="signUpNav displayHide">
+          <button class="btn btn-outline-success buttonSignUp" type="submit">Sign Up</button>
+        </div>
+        <div class="profileNav">
+          <div class="row">
+            <div class="col-md-auto">
+              <img src="../CSS/img/search.png" alt="" class="searchNav">
+            </div>
+            <div class="col-md-auto">
+              <input type="text" class="searchWord" placeholder="Search movie name">
+            </div>
+            <div class="col-md-auto">
+              <div class="dropdown profileMenu">
+                <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown">
+                  <img src="../CSS/img/user.png" alt="" class="profileImg">
+                </button>
+                <ul class="dropdown-menu profileOption">
+                  <li><a class="dropdown-item fontProfile" href="#">Profile</a></li>
+                  <li><a class="dropdown-item fontProfile" href="#">Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </nav>
 
@@ -69,7 +92,7 @@
                       <p class="titlePayementLeft">Total payment</p>
                     </div>
                     <div class="col-6 d-flex justify-content-end">
-                      <p class="titlePaymentRight display-1">$30,00</p>
+                      <p class="titlePaymentRight totalOrder">$30,00</p>
                     </div>
                 </div>
             </div>
@@ -124,7 +147,7 @@
                         <img src="../CSS/img/Line 29.png" alt="" class="lineOr">
                     </div>
                     <div class="col-2">
-                        <p class="textOr">or</p>
+                        <p class="textOr"><a href="" class="textLink">or</a></p>
                     </div>
                     <div class="col-5">
                         <img src="../CSS/img/Line 29.png" alt="" class="lineOr">
@@ -148,7 +171,19 @@
                 </div>
                 <div class="mb-4">
                     <label for="exampleFormControlInput1" class="form-label labelPersonal">Phone Number</label>
-                    <input type="text" class="form-control formPersonal" id="exampleFormControlInput1" placeholder="081445687121">
+                    <div class="numberInput">
+                      <div class="row">
+                        <div class="col-3">
+                          <input type="text" class="codeNumber" placeholder="+62"></input>
+                        </div>
+                        <div class="col-1">
+                          <img src="../CSS/img/Line 21.png" alt="" class="linePhone">
+                        </div>
+                        <div class="col-8">
+                          <input type="text" class="formNumber" id="exampleFormControlInput1" placeholder="81445687121">
+                        </div>
+                      </div>
+                    </div>
                 </div>
                 <div class="warningInput">
                     <img src="../CSS/img/warning.png" alt="" class="warningIcon">

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
 /* NAVBAR */
 .navcss {
   background-color: #ffffff;
@@ -21,6 +21,44 @@
   font-weight: 700;
   font-size: 14px;
   color: #f7f7fc;
+}
+.buttonSignUp:hover {
+  background-color: #ffffff;
+  color: #5f2eea;
+  border: 2px solid #5f2eea;
+}
+.displayHide {
+  display: none;
+}
+/* Nav Profile*/
+.searchWord {
+  display: none;
+  width: 150px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+.profileNav:hover .searchWord {
+  display: inline-block;
+}
+.profileMenu {
+  background-color: #ffffff;
+  margin-top: -15px;
+}
+.profileImg {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.fontProfile {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
 }
 .homeMenu {
   position: absolute;
@@ -89,13 +127,18 @@
   left: 80%;
   background: #eff0f7;
   opacity: 0.8;
-  border: 8px solid #eff0f7;
+  border: 2px solid #eff0f7;
   border-radius: 15px;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   color: #5f2eea;
+  height: 45px;
+  width: 139px;
+}
+.btnMovie:hover {
+  border: 2px solid #5f2eea;
 }
 .btnMovie:hover {
   color: #5f2eea;
@@ -137,7 +180,14 @@
 }
 .btnChange:hover {
   color: #5f2eea;
-  text-decoration: underline;
+  font-size: 16px;
+}
+.goToPayment {
+  color: #ffffff;
+  text-decoration: none;
+}
+.goToPayment:hover {
+  color: #ffffff;
 }
 .btnCheckout {
   position: relative;
@@ -158,7 +208,7 @@
 }
 .btnCheckout:hover {
   color: #eff0f7;
-  text-decoration: underline;
+  font-size: 16px;
 }
 .orderInfo {
   position: relative;

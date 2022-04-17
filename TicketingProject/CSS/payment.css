@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
 /* NAVBAR */
 .navcss {
   background-color: #ffffff;
@@ -21,6 +21,44 @@
   font-weight: 700;
   font-size: 14px;
   color: #f7f7fc;
+}
+.buttonSignUp:hover {
+  background-color: #ffffff;
+  color: #5f2eea;
+  border: 2px solid #5f2eea;
+}
+.displayHide {
+  display: none;
+}
+/* Nav Profile*/
+.searchWord {
+  display: none;
+  width: 150px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+.profileNav:hover .searchWord {
+  display: inline-block;
+}
+.profileMenu {
+  background-color: #ffffff;
+  margin-top: -15px;
+}
+.profileImg {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.fontProfile {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
 }
 .homeMenu {
   position: absolute;
@@ -78,15 +116,18 @@
   font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 20px;
   color: #6b6b6b;
 }
 .titlePaymentRight {
   font-family: "Mulish";
   font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 20px;
   color: #14142b;
+}
+.totalOrder {
+  font-weight: 700;
 }
 .linePayment {
   width: 100%;
@@ -119,6 +160,9 @@
   padding: 12px;
   text-align: center;
 }
+.paymentIcon:hover {
+  border: 2px solid #5f2eea;
+}
 .lineOr {
   margin-top: 40px;
   width: 100%;
@@ -131,6 +175,13 @@
   font-size: 16px;
   color: #a0a3bd;
   text-align: center;
+}
+.textLink {
+  text-decoration: none;
+  color: #a0a3bd;
+}
+.textLink:hover {
+  color: #5f2eea;
 }
 .textCash {
   margin-top: 30px;
@@ -165,7 +216,7 @@
 }
 .btnPrev:hover {
   color: #5f2eea;
-  text-decoration: underline;
+  font-size: 16px;
 }
 .btnPay {
   position: relative;
@@ -186,7 +237,7 @@
 }
 .btnPay:hover {
   color: #eff0f7;
-  text-decoration: underline;
+  font-size: 16px;
 }
 .personalTitle {
   position: relative;
@@ -225,6 +276,39 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
+  color: #4e4b66;
+}
+.numberInput {
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.codeNumber {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #4e4b66;
+  padding-right: 5s0px;
+  width: 60%;
+  border: none;
+}
+.linePhone {
+  margin-left: -30px;
+  padding-top: 5px;
+}
+.formNumber {
+  margin-top: 10px;
+  margin-left: -50px;
+  margin-bottom: 10px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
   color: #4e4b66;
 }
 .warningInput {

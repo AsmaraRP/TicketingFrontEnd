@@ -18,7 +18,30 @@
         </a>
         <a href="" class="homeMenu"> Home</a>
         <a href="" class="listMenu">List Movie</a>
-        <button class="btn btn-outline-success buttonSignUp" type="submit">Sign Up</button>
+        <div class="signUpNav displayHide">
+          <button class="btn btn-outline-success buttonSignUp" type="submit">Sign Up</button>
+        </div>
+        <div class="profileNav">
+          <div class="row">
+            <div class="col-md-auto">
+              <img src="../CSS/img/search.png" alt="" class="searchNav">
+            </div>
+            <div class="col-md-auto">
+              <input type="text" class="searchWord" placeholder="Search movie name">
+            </div>
+            <div class="col-md-auto">
+              <div class="dropdown profileMenu">
+                <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown">
+                  <img src="../CSS/img/user.png" alt="" class="profileImg">
+                </button>
+                <ul class="dropdown-menu profileOption">
+                  <li><a class="dropdown-item fontProfile" href="#">Profile</a></li>
+                  <li><a class="dropdown-item fontProfile" href="#">Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </nav>
 
@@ -34,7 +57,7 @@
             <h1 class="chooseSeat">Choose Your Seat</h1>
             <div class="seatOption"></div>
             <button class="btn btnChange" type="submit">Change your movie</button>
-            <button class="btn btnCheckout" type="submit">Checkout now</button>
+            <button class="btn btnCheckout" type="submit"><a href="./payment.html" class="goToPayment">Checkout now</a></button>
           </div>
           <div class="col-4">
             <h1 class="orderInfo">Order Info</h1>
