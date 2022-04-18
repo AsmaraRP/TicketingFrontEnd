@@ -30,6 +30,10 @@
 .displayHide {
   display: none;
 }
+.navIconBar {
+  display: none;
+  width: 10px;
+}
 /* Nav Profile*/
 .searchWord {
   display: none;

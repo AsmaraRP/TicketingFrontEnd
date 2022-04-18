@@ -86,6 +86,10 @@
   letter-spacing: 0.005em;
   color: #414141;
 }
+.navIconBar {
+  display: none;
+  width: 10px;
+}
 /* ORDER MAIN */
 .orderMain {
   position: relative;

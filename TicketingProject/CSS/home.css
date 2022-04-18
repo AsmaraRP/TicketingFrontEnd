@@ -86,6 +86,10 @@
   letter-spacing: 0.005em;
   color: #414141;
 }
+.navIconBar {
+  display: none;
+  width: 10px;
+}
 /* BANNER */
 .banner {
   margin-top: 100px;
@@ -103,6 +107,7 @@
 .nowShowing {
   background-color: #f5f6f8;
   height: 576px;
+  position: relative;
 }
 .titleNowShowing {
   width: 161px;
@@ -120,15 +125,11 @@
   position: relative;
   width: 60px;
   height: 20px;
-  left: 1200px;
   top: 25px;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
-  text-align: right;
-  letter-spacing: 0.15px;
   color: #5f2eea;
 }
 .lineNowShowing {
@@ -142,7 +143,6 @@
   width: 223px;
   left: 0px;
   top: 70px;
-  margin-left: 50px;
   background: rgba(255, 255, 255, 0.2);
   border: 2px solid #ffffff;
   border-radius: 8px;
@@ -150,6 +150,7 @@
 }
 .movieShow:hover {
   top: 50px;
+  z-index: 2;
   background-color: #ffffff;
   height: 420px;
   border: 0.5px solid #dedede;
@@ -218,6 +219,8 @@
 }
 /* UPCOMING */
 .upcoming {
+  position: relative;
+  z-index: 1;
   height: 700px;
   background-color: #ffffff;
 }
@@ -314,6 +317,9 @@
 }
 /* RESPONCARD */
 .responseCard {
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
   height: 500px;
 }
 .cardMainResponse {
@@ -326,16 +332,18 @@
   border-radius: 8px;
 }
 .moviegoers {
+  height: 87px;
+  width: 262px;
   position: relative;
-  top: 30px;
-  left: 525px;
+  margin-top: 50px;
 }
 .emailForm {
+  margin-right: 60px;
   position: relative;
   padding: 10px;
   width: 300px;
   height: 40px;
-  top: 120px;
+  top: 20px;
   left: 160px;
   border: 2px solid #dedede;
   box-sizing: border-box;
@@ -350,7 +358,8 @@
 }
 .buttonResponse {
   position: relative;
-  top: 119px;
+  margin-left: -70px;
+  top: 20px;
   left: 170px;
   background: #5f2eea;
   border-radius: 4px;
@@ -369,7 +378,7 @@
 }
 .textResponse {
   position: relative;
-  top: 130px;
+  top: 50px;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
@@ -380,7 +389,7 @@
 }
 .textResponse2 {
   position: relative;
-  top: 110px;
+  top: 40px;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
@@ -391,8 +400,11 @@
 }
 /* FOOTER */
 .footerMain {
+  position: relative;
+  background-color: #ffffff;
+  z-index: 1;
   height: 400px;
-  margin-top: 60px;
+  padding-top: 60px;
 }
 .footerLogo {
   position: relative;
@@ -455,7 +467,123 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 18px;
-  letter-spacing: 0.5px;
   color: #4e4b66;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 800px) {
+  /* NAVRes */
+  .buttonSignUp {
+    display: none;
+  }
+  .profileNav {
+    display: none;
+  }
+  .homeMenu {
+    display: none;
+  }
+  .listMenu {
+    display: none;
+  }
+  .navIconBar {
+    display: inline-block;
+    margin-right: 120px;
+  }
+  /* CONTENTRes */
+  .motto {
+    top: 150px;
+  }
+  .hideResp {
+    display: none;
+  }
+  .banner {
+    height: 800px;
+  }
+  .banner_img {
+    position: relative;
+    top: 200px;
+  }
+  .nowShowing {
+    height: 500px;
+    background-color: #d6d8e7;
+  }
+  .movieShow {
+    position: relative;
+    margin-right: -30px;
+    height: 308px;
+    width: 223px;
+    margin-bottom: 50px;
+  }
+  .btnMonth {
+    display: none;
+  }
+  .activeMonth {
+    display: inline-block;
+  }
+  .moviegoers {
+    margin-top: 10px;
+  }
+  .emailForm {
+    left: -50px;
+    margin-bottom: 10px;
+  }
+  .buttonResponse {
+    left: 270px;
+  }
+  /* FOOTER */
+  .footerLogo {
+    height: 80px;
+  }
+  .textCol1 {
+    top: 100px;
+  }
+  .textCol2 {
+    margin-top: 30px;
+    top: 100px;
+  }
+  .listFooter {
+    position: relative;
+    top: 85px;
+    left: 100px;
+  }
+  .ourSponsor {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .sponsor {
+    position: absolute;
+    top: 170px;
+  }
+  .sp2 {
+    top: 185px;
+    left: 180px;
+  }
+  .sp3 {
+    top: 185px;
+    left: 400px;
+  }
+  .fb {
+    position: relative;
+    left: 40px;
+  }
+  .ig {
+    position: relative;
+    top: -22px;
+    left: 160px;
+  }
+  .tweeter {
+    position: relative;
+    top: -44px;
+    left: 280px;
+  }
+  .yt {
+    position: relative;
+    top: -66px;
+    left: 400px;
+  }
+  .copyRight {
+    left: 30px;
+    top: 60px;
+    text-align: start;
+  }
 }
