@@ -258,6 +258,7 @@
   height: 400px;
   width: 380px;
   border-radius: 8px;
+  margin-left: 25px;
 }
 .booknow:hover {
   border: 2px solid #5f2eea;
@@ -487,8 +488,8 @@
   }
   .titleMovie {
     top: 550px;
-    left: -20px;
-    width: 200px;
+    left: -50px;
+    width: 300px;
     font-size: 22px;
   }
   .genreMovie {
@@ -528,8 +529,10 @@
     top: 100px;
     left: 50px;
   }
-  .bookNow {
+  .booknow {
     padding-bottom: 40px;
+    margin-left: 0px;
+    margin-top: 20px;
   }
   /* FOOTER */
   .footerLogo {

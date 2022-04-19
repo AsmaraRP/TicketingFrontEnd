@@ -350,3 +350,119 @@
   letter-spacing: 0.5px;
   color: #4e4b66;
 }
+@media screen and (max-width: 800px) {
+  /* NAVRes */
+  .buttonSignUp {
+    display: none;
+  }
+  .profileNav {
+    display: none;
+  }
+  .homeMenu {
+    display: none;
+  }
+  .listMenu {
+    display: none;
+  }
+  .navIconBar {
+    position: absolute;
+    left: 350px;
+    display: inline-block;
+  }
+  /* CONTENT */
+  .orderMain {
+    height: 1300px;
+  }
+  .movieSelect {
+    display: none;
+  }
+  .movieOption {
+    display: none;
+  }
+  .seatOption {
+    border-radius: 20px;
+    height: 400px;
+  }
+  .btnChange {
+    display: none;
+  }
+  .btnCheckout {
+    left: 40px;
+    top: 700px;
+    border-radius: 20px;
+  }
+  .orderInfo {
+    margin-top: 20px;
+  }
+  .infoBook {
+    width: 380px;
+  }
+  .movieSelectOrderInfo {
+    display: none;
+  }
+  .titleMovieSelectOrderInfo {
+    position: relative;
+    width: 200px;
+    left: -120px;
+  }
+  /* FOOTER */
+  .footerLogo {
+    height: 80px;
+  }
+  .hideResp {
+    display: none;
+  }
+  .textCol1 {
+    top: 100px;
+  }
+  .textCol2 {
+    margin-top: 30px;
+    top: 100px;
+  }
+  .listFooter {
+    position: relative;
+    top: 85px;
+    left: 100px;
+  }
+  .ourSponsor {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .sponsor {
+    position: absolute;
+    top: 170px;
+    width: 100px;
+  }
+  .sp2 {
+    top: 185px;
+    left: 150px;
+  }
+  .sp3 {
+    top: 175px;
+    left: 280px;
+  }
+  .fb {
+    position: relative;
+    left: 20px;
+  }
+  .ig {
+    position: relative;
+    top: -22px;
+    left: 100px;
+  }
+  .tweeter {
+    position: relative;
+    top: -44px;
+    left: 180px;
+  }
+  .yt {
+    position: relative;
+    top: -66px;
+    left: 260px;
+  }
+  .copyRight {
+    left: 30px;
+    top: 60px;
+    text-align: start;
+  }
+}
