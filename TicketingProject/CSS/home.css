@@ -137,22 +137,35 @@
   top: 30px;
   left: 20px;
 }
-.movieShow {
-  position: relative;
-  height: 308px;
+.movieListShow {
+  margin-top: 50px;
+  overflow: auto;
+  white-space: nowrap;
+}
+.card {
+  vertical-align: top;
   width: 223px;
-  left: 0px;
-  top: 70px;
+  height: 308px;
+  margin-right: 40px;
+  display: inline-block;
   background: rgba(255, 255, 255, 0.2);
   border: 2px solid #ffffff;
-  border-radius: 8px;
-  margin: 5px;
+  margin-bottom: 30px;
 }
-.movieShow:hover {
-  top: 50px;
-  z-index: 2;
+.movieShow {
+  position: relative;
+  left: -13px;
+  top: -13px;
+  height: 159px;
+  width: 244px;
+  width: 100%;
+  white-space: normal;
+  border-radius: 8px;
+}
+.card:hover {
+  width: 223px;
   background-color: #ffffff;
-  height: 420px;
+  height: 430px;
   border: 0.5px solid #dedede;
   box-shadow: 0px 8px 30px rgba(186, 186, 186, 0.25);
   border-radius: 8px;
@@ -161,6 +174,7 @@
   display: none;
   position: relative;
   top: -20px;
+  left: 10px;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
@@ -170,13 +184,14 @@
   letter-spacing: 0.15px;
   color: #14142b;
 }
-.movieShow:hover .titleMovieShow {
+.card:hover .titleMovieShow {
   display: block;
 }
 .desMovieShow {
   display: none;
   position: relative;
   top: -20px;
+  left: 18px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -187,7 +202,7 @@
   color: #a0a3bd;
   text-align: center;
 }
-.movieShow:hover .desMovieShow {
+.card:hover .desMovieShow {
   display: block;
 }
 .btnMovieShow {
@@ -210,7 +225,7 @@
   background-color: #5f2eea;
   color: #ffffff;
 }
-.movieShow:hover .btnMovieShow {
+.card:hover .btnMovieShow {
   display: block;
 }
 .movieCardImg {
@@ -219,10 +234,23 @@
 }
 /* UPCOMING */
 .upcoming {
-  position: relative;
-  z-index: 1;
   height: 700px;
   background-color: #ffffff;
+}
+.movieUpcoming {
+  width: 100%;
+  height: 450px;
+  overflow: auto;
+  white-space: nowrap;
+}
+.movieUpList {
+  width: 223px;
+  height: 308px;
+  margin-right: 40px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid #ffffff;
+  margin-bottom: 30px;
 }
 .titleUpcoming {
   width: 250px;
@@ -240,13 +268,13 @@
   position: relative;
   height: 408px;
   width: 223px;
-  left: 0px;
-  top: 70px;
-  margin-left: 50px;
   background: #ffffff;
   border: 1px solid #dedede;
   border-radius: 8px;
-  margin: 5px;
+}
+.cardImg {
+  padding: 18px;
+  border-radius: 6px;
 }
 .titleCard {
   position: relative;
@@ -274,8 +302,7 @@
 }
 .btnCard {
   position: relative;
-  top: -30px;
-  left: 15px;
+  top: -35px;
   border: 1px solid #5f2eea;
   box-sizing: border-box;
   border-radius: 4px;
@@ -291,8 +318,18 @@
   background-color: #5f2eea;
   color: #ffffff;
 }
+.listMonthMovie {
+  margin-top: 50px;
+  width: 100%;
+  overflow: auto;
+  white-space: nowrap;
+}
+.placeMonth {
+  margin-bottom: 20px;
+  display: inline-block;
+  margin-left: 10px;
+}
 .btnMonth {
-  position: relative;
   top: 40px;
   left: 15px;
   border: 1px solid #5f2eea;
@@ -486,36 +523,25 @@
     display: none;
   }
   .navIconBar {
+    position: absolute;
+    left: 350px;
     display: inline-block;
-    margin-right: 120px;
   }
   /* CONTENTRes */
   .motto {
     top: 150px;
-  }
-  .hideResp {
-    display: none;
   }
   .banner {
     height: 800px;
   }
   .banner_img {
     position: relative;
+    width: 400px;
     top: 200px;
   }
   .nowShowing {
-    height: 500px;
+    height: 600px;
     background-color: #d6d8e7;
-  }
-  .movieShow {
-    position: relative;
-    margin-right: -30px;
-    height: 308px;
-    width: 223px;
-    margin-bottom: 50px;
-  }
-  .btnMonth {
-    display: none;
   }
   .activeMonth {
     display: inline-block;
@@ -524,15 +550,18 @@
     margin-top: 10px;
   }
   .emailForm {
-    left: -50px;
+    left: 10px;
     margin-bottom: 10px;
   }
   .buttonResponse {
-    left: 270px;
+    left: 210px;
   }
   /* FOOTER */
   .footerLogo {
     height: 80px;
+  }
+  .hideResp {
+    display: none;
   }
   .textCol1 {
     top: 100px;
@@ -553,33 +582,34 @@
   .sponsor {
     position: absolute;
     top: 170px;
+    width: 100px;
   }
   .sp2 {
     top: 185px;
-    left: 180px;
+    left: 150px;
   }
   .sp3 {
-    top: 185px;
-    left: 400px;
+    top: 175px;
+    left: 280px;
   }
   .fb {
     position: relative;
-    left: 40px;
+    left: 20px;
   }
   .ig {
     position: relative;
     top: -22px;
-    left: 160px;
+    left: 100px;
   }
   .tweeter {
     position: relative;
     top: -44px;
-    left: 280px;
+    left: 180px;
   }
   .yt {
     position: relative;
     top: -66px;
-    left: 400px;
+    left: 260px;
   }
   .copyRight {
     left: 30px;

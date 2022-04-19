@@ -147,7 +147,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  letter-spacing: 0.75px;
   color: #8692a6;
 }
 .contentDetail {
@@ -159,7 +158,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  letter-spacing: 0.75px;
   color: #121212;
 }
 .lineDetail {
@@ -258,8 +256,11 @@
   position: relative;
   top: 110px;
   height: 400px;
-  width: 410px;
+  width: 380px;
   border-radius: 8px;
+}
+.booknow:hover {
+  border: 2px solid #5f2eea;
 }
 .booknowImg {
   position: relative;
@@ -325,7 +326,7 @@
 .priceContent {
   position: relative;
   top: 86px;
-  left: 85px;
+  left: 80px;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 600;
@@ -347,7 +348,7 @@
   box-shadow: 0px 8px 24px rgba(95, 46, 234, 0.24);
   border-radius: 4px;
   height: 40px;
-  width: 375px;
+  width: 350px;
   border-radius: 4px;
 }
 .goToOrder {
@@ -455,4 +456,139 @@
   line-height: 18px;
   letter-spacing: 0.5px;
   color: #4e4b66;
+}
+@media screen and (max-width: 800px) {
+  /* NAVRes */
+  .buttonSignUp {
+    display: none;
+  }
+  .profileNav {
+    display: none;
+  }
+  .homeMenu {
+    display: none;
+  }
+  .listMenu {
+    display: none;
+  }
+  .navIconBar {
+    position: absolute;
+    left: 350px;
+    display: inline-block;
+  }
+  /* CONTENT */
+  .detail {
+    height: 1400px;
+  }
+  .movieDetail {
+    left: 30px;
+    width: 300px;
+    height: auto;
+  }
+  .titleMovie {
+    top: 550px;
+    left: -20px;
+    width: 200px;
+    font-size: 22px;
+  }
+  .genreMovie {
+    top: 550px;
+    left: -50px;
+  }
+  .menuDetail {
+    top: 550px;
+    left: -50px;
+  }
+  .contentDetail {
+    top: 550px;
+    left: -50px;
+    width: 100px;
+  }
+  .lineDetail {
+    top: 550px;
+    left: -50px;
+    width: 300px;
+  }
+  .synopsisTitle {
+    top: 550px;
+    left: -50px;
+  }
+  .synopsisContent {
+    top: 550px;
+    left: -50px;
+    width: 300px;
+  }
+  .booking {
+    height: auto;
+  }
+  .calender {
+    left: 50px;
+  }
+  .location {
+    top: 100px;
+    left: 50px;
+  }
+  .bookNow {
+    padding-bottom: 40px;
+  }
+  /* FOOTER */
+  .footerLogo {
+    height: 80px;
+  }
+  .hideResp {
+    display: none;
+  }
+  .textCol1 {
+    top: 100px;
+  }
+  .textCol2 {
+    margin-top: 30px;
+    top: 100px;
+  }
+  .listFooter {
+    position: relative;
+    top: 85px;
+    left: 100px;
+  }
+  .ourSponsor {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .sponsor {
+    position: absolute;
+    top: 170px;
+    width: 100px;
+  }
+  .sp2 {
+    top: 185px;
+    left: 150px;
+  }
+  .sp3 {
+    top: 175px;
+    left: 280px;
+  }
+  .fb {
+    position: relative;
+    left: 20px;
+  }
+  .ig {
+    position: relative;
+    top: -22px;
+    left: 100px;
+  }
+  .tweeter {
+    position: relative;
+    top: -44px;
+    left: 180px;
+  }
+  .yt {
+    position: relative;
+    top: -66px;
+    left: 260px;
+  }
+  .copyRight {
+    left: 30px;
+    top: 60px;
+    text-align: start;
+  }
 }
